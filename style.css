@@ -196,3 +196,16 @@ section.sobre .flex {
   transition: .2s;
 }
 
+@media screen and (max-width: 1020px){
+  .flex{
+    flex-direction: column;
+  }
+
+  .topo-do-site .flex{
+    flex-direction: column-reverse;
+  }
+
+  .menu-desktop, .btn-contato{
+    display: none;
+  }  
+}
