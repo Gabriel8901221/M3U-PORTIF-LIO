@@ -232,5 +232,16 @@ section.topo-do-site{
 section.especialidades{
   padding: 40px 10%;
 }
+section.sobre{
+  padding: 80px 8%;
+}
 
+.sobre .txt-sobre h2{
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+.btn-social{
+  text-align: center;
+}
 }
