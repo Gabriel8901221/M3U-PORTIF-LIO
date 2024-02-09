@@ -205,7 +205,32 @@ section.sobre .flex {
     flex-direction: column-reverse;
   }
 
+  h2.title {
+   
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+   }
+  
+
   .menu-desktop, .btn-contato{
     display: none;
   }  
+  
+section.topo-do-site .flex {
+  gap: 40px;
+}
+
+section.topo-do-site{
+  padding: 20px 8%;
+}
+
+.topo-do-site h1{  
+  font-size: 30px;
+}
+
+section.especialidades{
+  padding: 40px 10%;
+}
+
 }
